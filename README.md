@@ -2,18 +2,11 @@
   <img src="site_principal/assets/img/logoDuo.svg" alt="Logo" width="200" height="200">
 </p>
 
-[![Build Status](https://travis-ci.org/abntex/limarka.svg?branch=master)](https://travis-ci.org/abntex/limarka) [![Coverage Status](https://coveralls.io/repos/github/abntex/limarka/badge.svg?branch=master)](https://coveralls.io/github/abntex/limarka?branch=master) [![Gem Version](https://badge.fury.io/rb/limarka.svg)](https://badge.fury.io/rb/limarka) [![Join the chat at https://gitter.im/abntex/limarka](https://badges.gitter.im/abntex/limarka.svg)](https://gitter.im/abntex/limarka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<h3>Olá! Bem vindo ao Servem Pets!</h3>
 
-![Normas da ABNT em 2017: Atualizadas](https://img.shields.io/badge/Normas%20da%20ABNT%20em%202017-Atualizadas-brightgreen.svg)
-![NBR 14724:2011 100%](https://img.shields.io/badge/NBR%202014724%3A2011-100%25-brightgreen.svg)
+O Servem Pets é uma plataforma revolucionária que simplifica a busca por cuidadores confiáveis para animais de estimação. Como a produção de trabalhos acadêmicos pode ser um momento sensível na vida dos estudantes, o Servem Pets busca aliviar os tutores de pets das preocupações relacionadas à segurança e bem-estar de seus companheiros peludos durante os períodos de ausência. Nosso objetivo é proporcionar uma experiência tranquila e transparente, permitindo que os usuários se concentrem no que realmente importa: o amor e a felicidade de seus animais de estimação. Com o Servem Pets, encontrar o cuidador ideal para seu pet nunca foi tão fácil e confiável.
 
-Olá! Bem vindo ao limarka!
-
-<!-- Show what you're doing, for who, and why.  -->
-
-O limarka é uma ferramenta que possibilita seus usuários escreverem relatórios ou trabalhos de conclusão de curso (Monografia, TCC, Dissertação ou Tese) em arquivos somente texto e **produzir PDFs em conformidades com as Normas da ABNT**. A produção desse tipo de trabalho é um momento sensível na vida dos estudantes, que pode contribuir para evasão no ensino superior. O objetivo do limarka é liberar dos estudantes os esforços de formatação e adequação às Normas da ABNT, deixando-os concentrar-se no planejamento, execução e escrita de seus trabalhos.
-
-# Quem utiliza o limarka diz que ele é fácil e prazeroso, descubra o porquê!
+<h4>Descubra por que o Servem Pets se destaca como a escolha preferida dos tutores de animais de estimação:</h4>
 
 <!-- Explain what makes your project special, useful, exciting! -->
 
