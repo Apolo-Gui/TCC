@@ -28,6 +28,11 @@ header a {
     padding: 0 32px;
     text-decoration: none;
 }
+
+header img{
+    width: 25%;
+}
+
 /* Seção inicial */
 #inicio {
     display: flex;
