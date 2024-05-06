@@ -1,4 +1,4 @@
-(link rel="image" href="assets/img/logoDuo.svg")
+![Logo](site_principal/assets/img/logoDuo.svg)
 
 [![Build Status](https://travis-ci.org/abntex/limarka.svg?branch=master)](https://travis-ci.org/abntex/limarka) [![Coverage Status](https://coveralls.io/repos/github/abntex/limarka/badge.svg?branch=master)](https://coveralls.io/github/abntex/limarka?branch=master) [![Gem Version](https://badge.fury.io/rb/limarka.svg)](https://badge.fury.io/rb/limarka) [![Join the chat at https://gitter.im/abntex/limarka](https://badges.gitter.im/abntex/limarka.svg)](https://gitter.im/abntex/limarka?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
