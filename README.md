@@ -17,5 +17,5 @@ O Servem Pets é uma plataforma revolucionária que simplifica a busca por cuida
 O meio de comunicação oficial do Servem Pets é o Instagram: [Servem Pets](https://www.instagram.com/servem_pets/).
 
 <p align="center">
-  <img src="site_principal/assets/img/servem.png" alt="Logo" width="200" height="200">
+  <img src="site_principal/assets/img/logoNomeDuo.svg" alt="Logo" width="200" height="200">
 </p>
