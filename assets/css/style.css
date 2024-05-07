@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -46,7 +47,9 @@ header nav{
 }
   
 h1,h2 {
-    font-weight: 600;
+    font-family: "Rye", serif;
+    color: #974C1C;
+    font-weight: 400;
     font-size: 32px;
     margin-bottom: 32px;
 }
@@ -80,30 +83,30 @@ h1,h2 {
 }
 
 /* Seção clínica */
-#clinica {
+#sobre {
     display: flex;
     align-items: center;
     gap: 64px;
     padding: 64px 80px;
 }
   
-#clinica li {
+#sobre li {
     margin-bottom: 16px;
     margin-left: 32px;
 }
 
 
   /* Seção petshop e farmácia */
-#farmacia {
+#app {
     padding: 64px 80px;
     text-align: center;
 }
   
-#farmacia img {
+#app img {
     margin: 64px auto;
 }
   
-#farmacia .paragrafo {
+#app .paragrafo {
     max-width: 950px;
     margin: 0 auto;
 }
