@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="site_principal/assets/img/logoDuo.svg" alt="Logo" width="200" height="200">
+  <img src="assets/img/logoDuo.svg" alt="Logo" width="200" height="200">
 </p>
 
 <h3>Olá! Bem vindo ao Servem Pets!</h3>
@@ -17,5 +17,5 @@ O Servem Pets é uma plataforma revolucionária que simplifica a busca por cuida
 O meio de comunicação oficial do Servem Pets é o Instagram: [Servem Pets](https://www.instagram.com/servem_pets/).
 
 <p align="center">
-  <img src="site_principal/assets/img/logoNomeDuo.svg" alt="Logo" width="200" height="200">
+  <img src="assets/img/logoNomeDuo.svg" alt="Logo" width="200" height="200">
 </p>
