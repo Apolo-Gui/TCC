@@ -164,11 +164,22 @@ footer {
     gap: 80px;
     padding: 64px 80px;
 }
-  
+
+footer img{
+    width: 150px;
+    height: 150px;
+}
+
 footer img,footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
+}
+
+footer i{
+    width: 10px;
+    height: 10px;
+    display: flex;
 }
   
 footer nav a {
@@ -199,3 +210,27 @@ footer p a {
     color: #974C1C;
     text-decoration: none;
 }
+
+/* Estilos para o botão */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #974C1C;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.3s ease; /* Adiciona transição suave */
+  }
+  
+  #myBtn:hover {
+    background-color: #EACCA8;
+    color: #974C1C;
+  }
