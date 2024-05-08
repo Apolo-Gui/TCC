@@ -35,3 +35,7 @@ Servem Pets is a revolutionary platform that simplifies the search for trustwort
 <h4>Want to get in touch?</h4>
 
 The official communication channel for Servem Pets is Instagram: [Servem Pets](https://www.instagram.com/servem_pets/).
+
+<p align="center">
+  <img src="assets/img/logoNomeDuo.svg" alt="Logo" width="200" height="200">
+</p>
