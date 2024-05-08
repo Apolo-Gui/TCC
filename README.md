@@ -16,8 +16,8 @@ Nosso site é o seu centro de informações para esclarecer dúvidas, informar o
 
 <h4>Deseja entrar em contato?</h4>
 
-O meio de comunicação oficial do Servem Pets são:
-Instagram: [Servem Pets](https://www.instagram.com/servem_pets/).
+O meio de comunicação oficial do Servem Pets são: <br>
+Instagram: [Servem Pets](https://www.instagram.com/servem_pets/). <br>
 Twitter: [Servem Pets](https://twitter.com/servem_pets).
 
 <p align="center">
@@ -40,8 +40,8 @@ Our website is your go-to hub for clearing doubts, shedding light on what Servem
 
 <h4>Want to get in touch?</h4>
 
-The official communication channel for Servem Pets are:
-Instagram: [Servem Pets](https://www.instagram.com/servem_pets/).
+The official communication channel for Servem Pets are: <br>
+Instagram: [Servem Pets](https://www.instagram.com/servem_pets/). <br>
 Twitter: [Servem Pets](https://twitter.com/servem_pets).
 
 <p align="center">
