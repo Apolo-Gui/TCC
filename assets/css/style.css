@@ -53,6 +53,14 @@ h1,h2 {
     font-size: 32px;
     margin-bottom: 32px;
 }
+
+h4 {
+    font-family: "Rye", serif;
+    color: #974C1C;
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 16px;  
+}
   
 .paragrafo {
     line-height: 150%;
@@ -150,6 +158,7 @@ h1,h2 {
     opacity: 0;
     transition: .2s;
 }
+
 .duvida.ativa p {
     height: fit-content;
     opacity: 1;
@@ -228,8 +237,12 @@ footer p a {
     border-radius: 4px;
     opacity: 0; /* Começa invisível */
     transition: opacity 0.3s ease; /* Adiciona transição suave */
-  }
+}
   
+#myBtn:hover {
+    background-color: #EACCA8;
+    color: #974C1C;
+}
   #myBtn:hover {
     background-color: #EACCA8;
     color: #974C1C;
