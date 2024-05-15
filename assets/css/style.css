@@ -216,7 +216,9 @@ footer p a {
     border-radius: 4px;
     opacity: 0;
     transition: opacity 0.3s ease;
-}
+    height: 50px;
+    width: 50px;
+    align-items: center;}
 
 #myBtn:hover {
     background-color: #EACCA8;
