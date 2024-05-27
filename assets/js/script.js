@@ -27,3 +27,12 @@ function topFunction() {
   document.body.scrollTop = 0; // Para browsers da Safari
   document.documentElement.scrollTop = 0; // Para outros browsers
 }
+
+const btn = document.getElementById('modo-btn');
+const body = document.body;
+
+btn.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    const mode = body.classList.contains('dark-mode') ? 'claro' : 'escuro';
+    btn.textContent = `Modo ${mode}`;
+});

@@ -204,7 +204,7 @@ footer p a {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 30px;
     z-index: 99;
     font-size: 18px;
@@ -256,4 +256,39 @@ footer p a {
         padding-left: 2%;
         padding-right: 2%;
     }
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+button#modo-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #974C1C;
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.dark-mode footer nav a {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.dark-mode footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+.dark-mode footer p a {
+    color: #ffffff;
+    text-decoration: none;
 }
