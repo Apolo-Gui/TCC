@@ -122,6 +122,7 @@ h4 {
 
 .duvida {
     position: relative;
+    width: 100%;
 }
 
 .duvida h3 {
@@ -134,8 +135,11 @@ h4 {
 
 .duvida img {
     position: absolute;
-    top: 32px;
+    bottom: 10px; /* Posição da seta na base */
     right: 24px;
+    width: 20px; /* Define o tamanho fixo para as setas */
+    height: 20px; /* Define o tamanho fixo para as setas */
+    transition: transform 0.2s; /* Adiciona transição para rotação */
 }
 
 .duvida p {
@@ -156,6 +160,10 @@ h4 {
     height: fit-content;
     opacity: 1;
     padding: 24px;
+}
+
+.duvida.ativa img {
+    transform: rotate(180deg); /* Rotaciona a seta ao expandir */
 }
 
 footer {
@@ -219,7 +227,8 @@ footer p a {
     transition: opacity 0.3s ease;
     height: 50px;
     width: 50px;
-    align-items: center;}
+    align-items: center;
+}
 
 #myBtn:hover {
     background-color: #EACCA8;
@@ -256,6 +265,69 @@ footer p a {
         padding-left: 2%;
         padding-right: 2%;
     }
+
+    #inicio, #sobre, #duvidas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #inicio img, #sobre img, #duvidas img {
+        margin-bottom: 16px;
+        width: calc(100% - 30px); /* Diminui as imagens em 30px */
+    }
+
+    #inicio .paragrafo, #sobre .paragrafo, #duvidas .paragrafo {
+        text-align: center;
+    }
+
+    .duvida {
+        width: 100%; /* Garante que as caixas de dúvida ocupem 100% da largura no mobile */
+    }
+
+    .duvida h3 {
+        padding: 16px; /* Ajusta o padding para se adequar melhor ao mobile */
+        font-size: 1rem; /* Ajusta o tamanho da fonte para mobile */
+        border: none; /* Remove as bordas */
+    }
+
+    .duvida img {
+        bottom: 10px; /* Posição da seta na base */
+        right: 16px; /* Ajusta a posição da seta */
+        width: 16px; /* Ajusta o tamanho da seta */
+        height: 16px; /* Ajusta o tamanho da seta */
+    }
+
+    .duvida p {
+        padding: 16px; /* Ajusta o padding do parágrafo para mobile */
+        font-size: 0.875rem; /* Ajusta o tamanho da fonte para mobile */
+        border: none; /* Remove as bordas */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 100px; /* Ajusta o tamanho da logo */
+        margin-bottom: 16px;
+    }
+
+    #inicio img, #sobre img, #duvidas img {
+        margin-bottom: 16px;
+        width: 100%; /* Ajusta a largura das imagens */
+    }
+
+    .duvida h3 {
+        padding: 12px; /* Ajusta o padding para se adequar melhor ao mobile */
+        font-size: 0.875rem; /* Ajusta o tamanho da fonte para mobile */
+    }
+
+    .duvida p {
+        padding: 12px; /* Ajusta o padding do parágrafo para mobile */
+        font-size: 0.75rem; /* Ajusta o tamanho da fonte para mobile */
+    }
 }
 
 .dark-mode {
@@ -277,49 +349,5 @@ button#modo-btn {
     right: 20px;
     background-color: #974C1C;
     color: #fff;
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 999;
-}
-
-.dark-mode footer nav a {
-    color: #ffffff;
-    display: block;
-    margin-bottom: 16px;
-    text-decoration: none;
-}
-
-.dark-mode footer p {
-    margin-bottom: 16px;
-    max-width: 350px;
-}
-
-.dark-mode footer p a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.dark-mode h1 {
-    font-family: "Rye", serif;
-    color: #EACCA8;
-    font-weight: 400;
-    font-size: 32px;
-    margin-bottom: 32px;
-}
-.dark-mode h2 {
-    font-family: "Rye", serif;
-    color: #EACCA8;
-    font-weight: 400;
-    font-size: 32px;
-    margin-bottom: 32px;
-}
-
-.dark-mode h4 {
-    font-family: "Rye", serif;
-    color: #EACCA8;
-    font-weight: 200;
-    font-size: 16px;
-    margin-bottom: 16px;
+    padding: 10px
 }
