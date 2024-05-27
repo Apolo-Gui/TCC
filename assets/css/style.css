@@ -263,6 +263,14 @@ footer p a {
     color: #fff;
 }
 
+.dark-mode header {
+    background-color: rgba(87, 62, 39, 0.925);
+}
+
+.dark-mode header a {
+    color: #fff; 
+}
+
 button#modo-btn {
     position: fixed;
     bottom: 20px;
