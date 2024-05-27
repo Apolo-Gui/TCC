@@ -300,3 +300,26 @@ button#modo-btn {
     color: #ffffff;
     text-decoration: none;
 }
+
+.dark-mode h1 {
+    font-family: "Rye", serif;
+    color: #EACCA8;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.dark-mode h2 {
+    font-family: "Rye", serif;
+    color: #EACCA8;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.dark-mode h4 {
+    font-family: "Rye", serif;
+    color: #EACCA8;
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
