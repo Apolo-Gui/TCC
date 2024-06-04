@@ -349,5 +349,36 @@ button#modo-btn {
     right: 20px;
     background-color: #974C1C;
     color: #fff;
-    padding: 10px
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.imgFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imgFooter a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.imgFooter p {
+    margin: 5px 0;
+}
+
+.imgFooter p a {
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .imgFooter a img {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
 }
