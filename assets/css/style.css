@@ -343,12 +343,19 @@ footer p a {
     color: #fff; 
 }
 
+.dark-mode footer nav a {
+    color: #fff;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
 button#modo-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
     background-color: #974C1C;
-    color: #fff;
+    color: #ffffff;
     padding: 10px;
     border: 0px;
     border-radius: 5px;
