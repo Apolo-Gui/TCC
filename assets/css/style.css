@@ -212,8 +212,8 @@ footer p a {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 60px;
-    right: 30px;
+    bottom: 70px;
+    right: 24px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -221,12 +221,10 @@ footer p a {
     background-color: #974C1C;
     color: #FFFFFF;
     cursor: pointer;
-    padding: 15px;
+    padding: 8px 15px;
     border-radius: 4px;
     opacity: 0;
-    transition: opacity 0.3s ease;
-    height: 50px;
-    width: 50px;
+    transition: opacity 0.3s ease, all 0.2s ease;
     align-items: center;
 }
 
@@ -319,6 +317,10 @@ footer p a {
         width: 100%; /* Ajusta a largura das imagens */
     }
 
+    #duvidas img {
+        margin-bottom: 0;
+    }
+
     .duvida h3 {
         padding: 12px; /* Ajusta o padding para se adequar melhor ao mobile */
         font-size: 0.875rem; /* Ajusta o tamanho da fonte para mobile */
@@ -359,6 +361,14 @@ button#modo-btn {
     padding: 10px;
     border: 0px;
     border-radius: 5px;
+    z-index: 99;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button#modo-btn:hover {
+    background-color: #EACCA8;
+    color: #974C1C;
 }
 
 .imgFooter {
@@ -387,5 +397,28 @@ button#modo-btn {
         width: 20px;
         height: 20px;
         margin: 0 5px;
+    }
+}
+
+@media (max-width: 950px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        gap: 40px;
+        padding: 32px;
+    }
+
+    footer div:first-child {
+        text-align: center;
+    }
+
+    footer div:first-child > p {
+        max-width: unset;
+    }
+
+    footer img {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
