@@ -23,6 +23,17 @@ header {
     padding-right: 5%;
 }
 
+header a:first-child {
+    flex-grow: 1;
+    max-width: 200px;
+    padding: 0 10px;
+    display: flex;
+}
+
+header a:first-child > img {
+    width: 100%;
+}
+
 header a {
     color: #FFFFFF;
     font-weight: 600;
@@ -249,7 +260,7 @@ footer p a {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 854px) {
     header {
         padding-left: 2%;
         padding-right: 2%;
@@ -274,6 +285,10 @@ footer p a {
         width: calc(100% - 30px); /* Diminui as imagens em 30px */
     }
 
+    #duvidas img {
+        margin-bottom: 0;
+    }
+
     #inicio .paragrafo, #sobre .paragrafo, #duvidas .paragrafo {
         text-align: center;
     }
@@ -286,6 +301,7 @@ footer p a {
         padding: 16px; /* Ajusta o padding para se adequar melhor ao mobile */
         font-size: 1rem; /* Ajusta o tamanho da fonte para mobile */
         border: none; /* Remove as bordas */
+        text-align: center;
     }
 
     .duvida img {
@@ -299,6 +315,17 @@ footer p a {
         padding: 16px; /* Ajusta o padding do parágrafo para mobile */
         font-size: 0.875rem; /* Ajusta o tamanho da fonte para mobile */
         border: none; /* Remove as bordas */
+    }
+
+    #duvidas h2 {
+        text-align: center;
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
